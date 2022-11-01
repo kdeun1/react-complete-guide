@@ -13,6 +13,8 @@ const ExpensesFilter = (props) => {
                 value={props.selected}
                 onChange={dropdownChangeHandler}
             >
+                <option value='all'>모두</option>
+                <option value='2023'>2023</option>
                 <option value='2022'>2022</option>
                 <option value='2021'>2021</option>
                 <option value='2020'>2020</option>
